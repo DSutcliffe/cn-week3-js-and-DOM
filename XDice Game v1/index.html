@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Dice Game</title>
+</head>
+
+<body>
+    <h1>Danny's Dice Game</h1>
+    <div class="gameBody">
+        
+        <table class="scoreTable">
+            <tr>
+                <td>P1</td>
+                <td><h2 id="playerStatus">Player 1</h2></td>
+                <td>P2</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td><h3 id="score">0</h3></td>
+                <td>-</td>
+            </tr>
+        </table> 
+        
+        <!--
+        <h2 id="playerStatus">Player 1</h2>
+        <h3 id="score">0</h3>
+        -->
+
+        <img id="diceImage" src="" alt="Dice">
+        <br>
+        <p id="textSpace">Enter the score needed to win...</p>
+        <input type="text" name="" id="winningScoreInput">
+        <br>
+        <button id="roll">Roll</button>
+    </div>
+
+    <div class="statsBody">
+
+        <table class="statsTable">
+            <tr>
+                <td>P1</td>
+                <td>Stats</td>
+                <td>P2</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>Wins</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>1's Rolled</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>2's Rolled</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>3's Rolled</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>4's Rolled</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>5's Rolled</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>6's Rolled</td>
+                <td>-</td>
+            </tr>
+        </table>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

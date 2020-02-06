@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Dice Game</title>
+</head>
+
+<body>
+    <h1>Danny's Dice Game</h1>
+    <button id="1PButton">1 Player Game</button>
+    <button id="2PButton">2 Player Game</button>
+    <br>
+    <br>
+    <div class="gameBody">
+        
+        <table class="scoreTable">
+            <tr>
+                <td id="p1ScoreTableHeader">P1</td>
+                <td><h2 id="playerSelector"></h2></td>
+                <td id="p2ScoreTableHeader">P2</td>
+            </tr>
+            <tr>
+                <td id="p1ScoreTableCounter">-</td>
+                <td><h3 id="singlePlayerScore">-</h3></td>
+                <td id="p2ScoreTableCounter">-</td>
+            </tr>
+        </table> 
+
+        <img id="diceImage" src="" alt="DiceImage">
+        <br>
+
+        <p id="scoreRequiredText">Enter the score needed to win...</p>
+        <input id="scoreToWinInput" type="text" name="">
+        <br>
+
+        <button id="rollStartButton">Roll</button>
+    </div>
+
+    <div class="statsBody">
+
+        <table class="statsTable">
+            <tr>
+                <td id="p1StatsTableHeader">P1</td>
+                <td><h2>Game Stats</h2></td>
+                <td id="p2StatsTableHeader">P2</td>
+            </tr>
+            <tr>
+                <td id="p1Wins">-</td>
+                <td>Wins</td>
+                <td id="p2Wins">-</td>
+            </tr>
+            <tr>
+                <td id="p1Ones">-</td>
+                <td>1's Rolleds</td>
+                <td id="p2Ones">-</td>
+            </tr>
+            <tr>
+                <td id="p1Twos">-</td>
+                <td>2's Rolled</td>
+                <td id="p2Twos">-</td>
+            </tr>
+            <tr>
+                <td id="p1Threes">-</td>
+                <td>3's Rolled</td>
+                <td id="p2Threes">-</td>
+            </tr>
+            <tr>
+                <td id="p1Fours">-</td>
+                <td>4's Rolled</td>
+                <td id="p2Fours">-</td>
+            </tr>
+            <tr>
+                <td id="p1Fives">-</td>
+                <td>5's Rolled</td>
+                <td id="p2Fives">-</td>
+            </tr>
+            <tr>
+                <td id="p1Sixes">-</td>
+                <td>6's Rolled</td>
+                <td id="p2Sixes">-</td>
+            </tr>
+        </table>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
